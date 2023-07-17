@@ -1,0 +1,4 @@
+Progamação orientada a objetos - POO
+
+forma mais próxima do mundo real, limitada por classes, contrutores, herança
+
