@@ -24,10 +24,11 @@ class Cartas extends Jogos{
 
 class Fps extends Jogos{
     public $inimigos;
-
+    public $estatico;
     public function setPersonagens($p){
         $this->personagens = $p;
     }
+
 }
 
 $baralho = new Cartas('fazer um lance');
@@ -41,7 +42,8 @@ $Fortinite->nome = "Fortinete";
 $Fortinite->inimigos = 24;
 $Fortinite->setPersonagens('Eu');
 $Fortinite->Rodada();
-var_dump($baralho,$Fortinite)
+var_dump($baralho,$Fortinite);
+
 
 
 

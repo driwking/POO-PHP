@@ -19,8 +19,8 @@ class Teste extends Aparelhos{
 }
 $cel = new Aparelhos();
 $cel->nome = "celular";
-// por herdar a classe parent, é possível utilizar os metodos e atributos da classe parente;
 
+// por herdar a classe parent, é possível utilizar os metodos e atributos da classe parent
 Teste::$preco = 1400;
 
 $cel->Vender();
