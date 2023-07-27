@@ -23,7 +23,7 @@ try {
 $NewStaler->CadastrarEmail("andrwi@gmailm");
 } catch(Exception $e)
 {
-    // obtendo a mensagem da exeção
+    // obtendo a mensagem da exceção
     echo "Mensagem: ".$e->getMessage()."<br>";
     echo "Código: ".$e->getCode()."<br>";
     echo "Linha: ".$e->getLine()."<br>";
