@@ -1,0 +1,20 @@
+{
+    "name": "teste_do_composer/composer",
+    "description": "teste do composer",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TesteDoComposer\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andriw aparecido",
+            "email": "andriw1919@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
